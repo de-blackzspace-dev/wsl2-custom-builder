@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  blackzspaceubuntufs:
+    build:
+      context: .
+      args:
+        UID: ${HOST_UID}
+        GID: ${HOST_GID}
+    image: blackzspaceubuntufsimg:latest
+    container_name: blackzspaceubuntufs
+    volumes:
+      - ./app:/home/debian/app

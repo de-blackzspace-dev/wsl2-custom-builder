@@ -1,0 +1,11 @@
+services:
+  blackzspacearch:
+    build:
+      context: .
+      args:
+        UID: ${HOST_UID}
+        GID: ${HOST_GID}
+    image: blackzspacearchfsimg:latest
+    container_name: blackzspacearchfs
+    volumes:
+      - ./app:/home/vault/app
