@@ -1,1 +1,7 @@
-# WSL2-CUSTOM-BU# wsl2-custom-builder
+# wsl2-custom-builder
+
+
+Building a custom wsl2 distribution!
+
+
+1: Build a RootFS 

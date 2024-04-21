@@ -1,0 +1,21 @@
+{
+    "name": "wslrootfsimagebuilder",
+    "version": "1.0.0",
+
+    "user": "blackleakzde",
+    "pass": "X3pc09cr0n96!",
+    
+    "image_nm": "wslrootfsimage",
+    "tag": "latest",
+    "container_name": "wslrootfs",
+
+
+    "parent_dir": "C:\\Users\\black\\Development_Prorotype\\WSL-Blackzspace.de\\WSL-ROOTFS-DEV",
+    "image_dir_arch": "C:\\Users\\black\\Development_Prorotype\\WSL-Blackzspace.de\\WSL-ROOTFS-DEV\\WSL-ROOTFS",
+    "image_dir_arch2": "C:\\Users\\black\\Development_Prorotype\\WSL-Blackzspace.de\\WSL-ROOTFS-DEV\\WSL-ROPOTFS3-ARCH",
+    "image_dir_ubuntu": "C:\\Users\\black\\Development_Prorotype\\WSL-Blackzspace.de\\WSL-ROOTFS-DEV\\WSL-ROOTFS-UBUNTU",
+
+    "ubuntu": "WSL-ROOTFS-UBUNTU",
+    "arch": "WSL-ROOTFS",
+    "arch2": "WSL-ROPOTFS3-ARCH"
+}
